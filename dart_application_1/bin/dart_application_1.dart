@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
 
 void main(List<String> arguments) {
@@ -8,5 +10,12 @@ void main(List<String> arguments) {
   // Comentario
   var sum = num1 + num2;
   sum = sum + num1;
+
+  int number;
+  Float number2;
+  String text;
+  bool booleano;
+  final constante;
+  const constante2 = 0;
   print(sum);
 }
