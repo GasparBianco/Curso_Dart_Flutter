@@ -12,10 +12,18 @@ void main(List<String> arguments) {
   sum = sum + num1;
 
   int number;
-  Float number2;
+  double number2;
   String text;
   bool booleano;
   final constante;
   const constante2 = 0;
+  String longString = ''' 
+  Hola mundo
+  ''';
+
+  number2 = 10;
+  text = number2.toString();
+  
+  
   print(sum);
 }
